@@ -1,0 +1,127 @@
+﻿#adminPage{
+    text-align:right;
+    direction:rtl;
+    width:100%;
+    height:600px;
+    border:1px solid black;
+    padding-top:120px;
+}
+#rightPanl{
+    width:15%;
+    height:99%;
+    border:1px solid black;
+    float:right;
+       
+}
+#leftPanel{
+    width:84%;
+    height:99%;
+    border:1px solid black;
+    float:right;
+     padding-right:3px;
+}
+#profile{
+    height:260px;
+    border-bottom:2px solid black;
+    background:url('../Images/bg/bg 07.png');
+}
+#proImg img{
+    width:100px;
+    height:150px;
+    padding-right:30px;
+    border-radius:5px;
+
+}
+#profile div{
+   padding-top:10px;
+   padding-right:10px;
+   color: white;
+   font-size:16px;
+}
+#use_room{
+    width:100%;
+    height:40px;
+    color:white;
+    background-color:green;
+    font-size:26px;
+    text-align:center;
+     padding-top:3px;
+}
+#free_room{
+    width:100%;
+    height:40px;
+    color:white;
+    background-color:blue;
+    font-size:26px;
+    text-align:center;
+     padding-top:3px;
+}
+#reserv_room{
+    width:100%;
+    height:40px;
+    color:blue;
+    background-color:orange;
+    font-size:26px;
+    text-align:center;
+    padding-top:3px;
+}
+#use_rooms{
+    height:100px;
+    width:100%;
+    padding-top:30px;
+    background:url('../Images/bg/bg 18.png');
+}
+.uses_rooms{
+    background-color:greenyellow;
+    border:1px solid black;
+    border-radius:5px;
+    text-align:center;
+    padding:15px 15px 15px 15px;
+    margin-right:50px;
+ 
+}
+.uses_rooms:hover{
+    background-color:coral;
+   
+}
+#free_rooms{
+    height:100px;
+    width:100%;
+    padding-top:30px;
+    background:url('../Images/bg/bg 18.png');
+}
+.frees_rooms{
+        background-color:dodgerblue;
+    border:1px solid black;
+    border-radius:5px;
+    text-align:center;
+    padding:15px 15px 15px 15px;
+    margin-right:50px;
+}
+.frees_rooms:hover{
+   background-color:coral;
+}
+
+#reserv_rooms{
+    height:175px;
+    width:100%;
+    padding-top:30px;
+    background:url('../Images/bg/bg 18.png');
+}
+#date{
+    margin-right:100px;
+    color:white;
+    font-size:16px;
+    padding-bottom:40px;
+}
+.reservs_rooms{
+        background-color:orange;
+    border:1px solid black;
+    border-radius:5px;
+    text-align:center;
+    padding:15px 15px 15px 15px;
+    margin-right:100px;
+}
+.reservs_rooms:hover{
+   background-color:coral;
+}

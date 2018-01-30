@@ -1,0 +1,93 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="../Content/MainPages.css" rel="stylesheet" />
+    <title>home</title>
+</head>
+<body>
+    <form id="form1">
+
+        <div id="header">
+            <div id="sign">
+                <div id="login" class="signpanel" onclick="showLog()">ورود</div>
+                <div id="signIn" class="signpanel" onclick="showsign()">ثبت نام</div>
+            </div>
+            <div id="menu">
+                <ul>
+                    <li class="menuPic"><a href="~/Views/Home/home.cshtml"><img src="../Images/home.png" /></a></li>
+                    <li class="menuPic"><a href="#"><img src="../Images/rooms.png" /></a></li>
+                    <li class="menuPic"><a href="#"><img src="../Images/tools.png" /></a></li>
+                    <li class="menuPic"><a href="#"><img src="../Images/gallery.png" /></a></li>
+                </ul>
+                <div id="picheader"><img src="../Images/maz.png" /></div>
+            </div>
+
+        </div>
+        <div id="picture">
+
+        </div>
+        <div id="footer">
+            <div class="addressFooter">
+                <img src="../Images/location.png" />
+                <div>مازندران ، ساری ، هتل مازندران</div>
+            </div>
+            <div class="addressFooter">
+                <img src="../Images/email.png" />
+                <div>   mazandaranHotel@gmail.com</div>
+            </div>
+            <div class="addressFooter">
+                <img src="../Images/phone.png" />
+                <div>01135554444</div>
+            </div>
+
+        </div>
+        <div id="login_mask" class="hide">
+            <div id="closepic" onclick="closeAll()">x</div>
+            <div>
+                <div> نام کاربری :</div>
+                <div> <input id="txtUsername" type="text"  /></div>
+            </div>
+            <div>
+                <div> رمز عبور  :</div>
+                <div> <input id="txtpass" type="text" /></div>
+            </div>
+            <div>
+                <div> <a id="btninter" href="">ثبت نام</a></div>
+            </div>
+        </div>
+        <!-- End login panel -->
+        <!-- start SignIn panel -->
+        <div id="sign_mask" class="hide">
+            <div id="closepic2" onclick="closeAlll()">x</div>
+            <div>
+                <div> ایمیل :</div>
+                <div> <input id="txtUserSign" class="txtsign" type="text"/></div>
+            </div>
+            <div>
+                <div> رمز عبور  :</div>
+                <div> <input id="txtPassSign" class="txtsign" type="text"  /></div>
+            </div>
+            <div>
+                <div> نام  :</div>
+                <div> <input id="Text1" class="txtsign" type="text" /></div>
+            </div>
+            <div>
+                <div> نام خانوادگی  :</div>
+                <div> <input id="Text2" class="txtsign" type="text" /></div>
+            </div>
+            <div>
+                <div><a id="btnSign" href="">ثبت نام</a> </div>
+            </div>
+        </div>
+        <!-- End SignIn panel -->
+    </form>
+    <script src="../script/home.js"></script>
+</body>
+</html>

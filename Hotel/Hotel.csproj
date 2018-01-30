@@ -89,11 +89,37 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\admin.css" />
+    <Content Include="Content\admins.css" />
+    <Content Include="Content\home.css" />
+    <Content Include="Content\MainPages.css" />
+    <Content Include="Content\user.css" />
+    <Content Include="Content\userselected.css" />
     <Content Include="Global.asax" />
+    <Content Include="images\150_54_news_hub_398_640x488.jpg" />
+    <Content Include="images\1khabe.jpg" />
+    <Content Include="images\2khabe.jpg" />
+    <Content Include="images\3khabe.jpg" />
+    <Content Include="images\9.jpg" />
+    <Content Include="images\bg_hotel.jpg" />
+    <Content Include="images\close.png" />
+    <Content Include="images\email.png" />
+    <Content Include="images\gallery.png" />
+    <Content Include="images\home.png" />
+    <Content Include="images\hotels-header.jpg" />
+    <Content Include="images\location.png" />
+    <Content Include="images\maz.png" />
+    <Content Include="images\phone.png" />
+    <Content Include="images\rezerv.png" />
+    <Content Include="images\rooms.png" />
+    <Content Include="images\tools.png" />
+    <Content Include="images\Viceroy_Bali_Hotel.jpg" />
+    <Content Include="script\home.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -102,6 +128,7 @@
   <ItemGroup>
     <Content Include="Views\web.config" />
     <Content Include="packages.config" />
+    <Content Include="Views\Home\home.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -111,7 +138,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
+    <Folder Include="images\bg\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>

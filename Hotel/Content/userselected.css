@@ -1,0 +1,64 @@
+﻿#allcover{
+        width:100%;
+    height:700px;
+    padding-top:120px;
+    background:url('../Images/bg_hotel.jpg');
+ 
+}
+#cover{
+        width:600px;
+    height:600px;
+   margin:auto;
+   margin-top:40px;
+   border-radius:5px;
+   border:1px solid orange;
+    background-color:white;
+}
+#header1{
+    width:100%;
+    height:40px;
+    color:white;
+    background-color:orange;
+    font-size:26px;
+    padding-top:10px;
+    text-align:center;
+        border-top:1px solid red;
+    border-bottom:2px solid red;
+   
+}
+#imgrequset{
+    width:100%;
+    height:300px;
+  margin:auto;
+    text-align:center;
+}
+#imgrequset img{
+    width:95%;
+    height:300px;
+    margin:auto;
+    text-align:center;
+    border-radius:5px;
+    border:13px solid white;
+}
+#date1,#tools2,#describ{
+    width:99%;
+    height:20px;
+    color:black;
+    background-color:white;
+    font-size:18px;
+    text-align:right;
+    border-right:5px solid red;
+    margin-top:30px;
+}
+#btnreq{
+    margin:auto;
+    width:70px;
+    padding :20px 25px 25px 20px;
+}
+#btnreq1{
+     margin:auto;
+     width:100%;
+     margin-top:40px;
+     padding-right:300px;
+
+}

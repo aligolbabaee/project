@@ -1,0 +1,215 @@
+﻿body {
+    text-align:right;
+    direction:rtl;
+}
+a{
+    text-decoration:none;
+}
+#header{
+    width:100%;
+    height:130px;
+    border:1px solid black;
+    border-radius:2px;
+    background-color:rgb(14, 14, 14);
+    position:fixed;
+    margin-top:-10px;
+    margin-right:-10px;
+     border-bottom:2px solid white;
+}
+#sign{
+    border:1px solid black;
+    height:30px;
+    background-color:purple;
+        border-bottom:2px solid white;
+
+}
+.signpanel{
+    display:inline;
+    float:right;
+    padding-right:20px;
+    color:white;
+    font-size:16px;
+    padding-top:9px;
+    transition:100ms;
+    border-radius:2px;
+}
+.signpanel:hover{
+    color:white;
+    font-size:20px;
+    transition:100ms;
+    cursor:pointer;
+    
+}
+#menu{
+    border:1px solid black;
+    height:95px;
+    background-color:rgb(14, 14, 14);
+}
+.menuPic{
+    display:inline;
+    float:right;
+    width:80px;
+    height:80px;
+}
+.menuPic img{
+    width:80px;
+    height:80px;
+}
+#picheader{
+    float:left;
+    height:95px;
+    width:400px;
+    border-radius:5px;
+    margin-top:-17px;
+}
+#picheader img{
+    height:95px;
+    width:400px;
+}
+#footer{
+    width:100%;
+    height:300px;
+    border:1px solid black;
+    margin-right:-10px;
+    background-image:url('../Images/bg/bg 10.png') ;
+    padding-left:20px;
+    border-top:2px solid white;
+}
+.addressFooter{
+    color:white;
+    font-size:13px;
+}
+.addressFooter div {
+
+    padding-right:30px;
+    text-align:right;
+        color:white;
+    font-size:16px;
+}
+.addressFooter img {
+
+    height:30px;
+    width:30px;
+    padding-top:20px;
+    padding-right:30px;
+}
+#login_mask{
+        height:300px;
+    width:250px;
+    perspective:800px;
+    position: fixed;
+    top: 0;
+    left: 900px;
+    background: url('../Images/bg/bg 04.png');
+    border-radius:5px;
+    overflow:hidden;
+    transition:500ms;
+}
+#login_mask.hide{
+    height:0px;
+    width:250px;
+    transition:500ms;
+}
+#login_mask.show{
+    height:300px;
+    width:250px;
+    transition:500ms;
+}
+#login_mask div{
+    font-size:18px;
+    padding-top:10px;
+    padding-right:20px;
+}
+#closepic{
+    cursor:pointer;
+
+}
+#closepic:hover{
+
+}
+#btninter{
+
+    width:150px;
+    height:35px;
+    margin-right:auto;
+    font-size:18px;
+    border:1px solid black;
+    background-color:lightgray;
+    color:black;
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:5px;
+    padding-bottom:5px;
+    margin:auto;
+}
+#txtUsername{
+    width:150px;
+    height:25px;
+    margin-right:auto;
+}
+#txtpass{
+        width:150px;
+    height:25px;
+    margin-right:auto;
+}
+/* sign in panel*/
+#sign_mask{
+        height:450px;
+    width:250px;
+    perspective:800px;
+    position: fixed;
+    top: 0;
+    left: 900px;
+    background: url('../Images/bg/bg 04.png');
+    border-radius:5px;
+    overflow:hidden;
+    transition:500ms;
+}
+#sign_mask.hide{
+    height:0px;
+    width:250px;
+    transition:500ms;
+}
+#sign_mask.show{
+    height:450px;
+    width:250px;
+    transition:500ms;
+}
+#sign_mask div{
+    font-size:18px;
+    padding-top:10px;
+    padding-right:20px;
+}
+#closepic2{
+    cursor:pointer;
+
+}
+#closepic:hover{
+
+}
+#btnSign{
+ width:150px;
+    height:35px;
+    margin-right:auto;
+    font-size:18px;
+    border:1px solid black;
+    background-color:lightgray;
+    color:black;
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:5px;
+    padding-bottom:5px;
+    margin:auto;
+}
+.txtsign{
+    width:150px;
+    height:25px;
+    margin-right:auto;
+}
+
+/* end sign in panel*/
+#picture{
+    height:800px;
+    width:100%;
+    background-image:url(../Images/Viceroy_Bali_Hotel.jpg);
+}
