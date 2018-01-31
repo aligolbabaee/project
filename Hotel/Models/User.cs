@@ -20,11 +20,12 @@ namespace Hotel.Models
         public bool Gender { get; set; }
         public string PhoneNum { get; set; }
         public string Address { get; set; }
-        public DateTime RegisterDate { get; set; }
-        public DateTime EditeDate { get; set; }
+        public string RegisterDate { get; set; }
+        public string EditeDate { get; set; }
         public Role Role { get; set; }
-        [ForeignKey(name:"RoomID")]
+        [ForeignKey(name:"ID")]
         public Room Room { get; set; }
     }
+    
 
 }

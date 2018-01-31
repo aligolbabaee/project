@@ -14,5 +14,22 @@ namespace Hotel.Controllers
         {
             return View();
         }
+
+        public ActionResult UserHome()
+        {
+            return View();
+        }
+
+        [Authorize(Roles ="Admin")]
+        public ActionResult Action()
+        {
+            return View();
+        }
+
+       
+        public ActionResult Action1()
+        {
+            return View();
+        }
     }
 }

@@ -31,3 +31,10 @@ C:\Users\Ali_golbabaee\Desktop\hotel_\Hotel\bin\System.Web.Mvc.xml
 C:\Users\Ali_golbabaee\Desktop\hotel_\Hotel\obj\Debug\Hotel.csprojResolveAssemblyReference.cache
 C:\Users\Ali_golbabaee\Desktop\hotel_\Hotel\obj\Debug\Hotel.dll
 C:\Users\Ali_golbabaee\Desktop\hotel_\Hotel\obj\Debug\Hotel.pdb
+C:\Users\Ali_golbabaee\Desktop\hotel_\Hotel\bin\EntityFramework.dll
+C:\Users\Ali_golbabaee\Desktop\hotel_\Hotel\bin\EntityFramework.SqlServer.dll
+C:\Users\Ali_golbabaee\Desktop\hotel_\Hotel\bin\EntityFramework.xml
+C:\Users\Ali_golbabaee\Desktop\hotel_\Hotel\bin\EntityFramework.SqlServer.xml
+C:\Users\Ali_golbabaee\Desktop\hotel_\Hotel\obj\Debug\Hotel.Migrations.ali.resources
+C:\Users\Ali_golbabaee\Desktop\hotel_\Hotel\obj\Debug\Hotel.csproj.GenerateResource.Cache
+C:\Users\Ali_golbabaee\Desktop\hotel_\Hotel\obj\Debug\Hotel.Migrations.ali1.resources

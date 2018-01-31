@@ -12,7 +12,7 @@
     <title>home</title>
 </head>
 <body>
-    <form id="form1">
+    <div id="form1">
 
         <div id="header">
             <div id="sign">
@@ -49,45 +49,53 @@
 
         </div>
         <div id="login_mask" class="hide">
-            <div id="closepic" onclick="closeAll()">x</div>
-            <div>
-                <div> نام کاربری :</div>
-                <div> <input id="txtUsername" type="text"  /></div>
-            </div>
-            <div>
-                <div> رمز عبور  :</div>
-                <div> <input id="txtpass" type="text" /></div>
-            </div>
-            <div>
-                <div> <a id="btninter" href="">ثبت نام</a></div>
-            </div>
+            @using (Html.BeginForm("Login","Account", FormMethod.Post))
+            {
+                <div id="closepic" onclick="closeAll()">x</div>
+                <div>
+                    <div> نام کاربری :</div>
+                    <div> @Html.TextBox("Email")</div>
+                </div>
+                <div>
+                    <div> رمز عبور  :</div>
+                    <div> @Html.TextBox("Password")</div>
+                </div>
+                <div>
+                    <div> <input type="submit"  value="ورود" /> </div>
+                </div>
+            }
+           
         </div>
         <!-- End login panel -->
         <!-- start SignIn panel -->
         <div id="sign_mask" class="hide">
-            <div id="closepic2" onclick="closeAlll()">x</div>
-            <div>
-                <div> ایمیل :</div>
-                <div> <input id="txtUserSign" class="txtsign" type="text"/></div>
-            </div>
-            <div>
-                <div> رمز عبور  :</div>
-                <div> <input id="txtPassSign" class="txtsign" type="text"  /></div>
-            </div>
-            <div>
-                <div> نام  :</div>
-                <div> <input id="Text1" class="txtsign" type="text" /></div>
-            </div>
-            <div>
-                <div> نام خانوادگی  :</div>
-                <div> <input id="Text2" class="txtsign" type="text" /></div>
-            </div>
-            <div>
-                <div><a id="btnSign" href="">ثبت نام</a> </div>
-            </div>
+            @using (Html.BeginForm("Register", "Account", FormMethod.Post))
+            {
+                <div id="closepic2" onclick="closeAlll()">x</div>
+                <div>
+                    <div> ایمیل :</div>
+                    <div> @Html.TextBox("Email")</div>
+                </div>
+                <div>
+                    <div> رمز عبور  :</div>
+                    <div> @Html.TextBox("Password")</div>
+                </div>
+                <div>
+                    <div> نام  :</div>
+                    <div> @Html.TextBox("Name")</div>
+                </div>
+                <div>
+                    <div> نام خانوادگی  :</div>
+                    <div> @Html.TextBox("LastName")</div>
+                </div>
+                <div>
+                    <div><input type="submit" value="ثبت نام" /> </div>
+                </div>
+            }
+           
         </div>
         <!-- End SignIn panel -->
-    </form>
+    </div>
     <script src="../script/home.js"></script>
 </body>
 </html>
