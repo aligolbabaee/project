@@ -97,6 +97,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\Hotel.Models.Hotel_DB.mdf" />
+    <Content Include="App_Data\Hotel.Models.Hotel_DB_log.ldf">
+      <DependentUpon>Hotel.Models.Hotel_DB.mdf</DependentUpon>
+    </Content>
     <Content Include="Content\admin.css" />
     <Content Include="Content\admins.css" />
     <Content Include="Content\home.css" />
@@ -164,7 +168,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="images\bg\" />
     <Folder Include="Views\Account\" />
   </ItemGroup>
