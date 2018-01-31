@@ -23,8 +23,7 @@ namespace Hotel.Models
         public string RegisterDate { get; set; }
         public string EditeDate { get; set; }
         public Role Role { get; set; }
-        [ForeignKey(name:"ID")]
-        public Room Room { get; set; }
+        
     }
     
 

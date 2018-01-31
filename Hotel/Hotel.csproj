@@ -44,11 +44,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
@@ -133,6 +133,9 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\Rooms1Controller.cs" />
+    <Compile Include="Controllers\RoomsController.cs" />
+    <Compile Include="Controllers\UsersController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -144,9 +147,26 @@
     <Compile Include="Migrations\201801310852589_ali1.Designer.cs">
       <DependentUpon>201801310852589_ali1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201801311041426_ali2.cs" />
+    <Compile Include="Migrations\201801311041426_ali2.Designer.cs">
+      <DependentUpon>201801311041426_ali2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201801311045549_majed3.cs" />
+    <Compile Include="Migrations\201801311045549_majed3.Designer.cs">
+      <DependentUpon>201801311045549_majed3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201801311051540_ali4.cs" />
+    <Compile Include="Migrations\201801311051540_ali4.Designer.cs">
+      <DependentUpon>201801311051540_ali4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201801311110248_ali5.cs" />
+    <Compile Include="Migrations\201801311110248_ali5.Designer.cs">
+      <DependentUpon>201801311110248_ali5.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Account.cs" />
     <Compile Include="Models\Hotel_DB.cs" />
+    <Compile Include="Models\Reserve.cs" />
     <Compile Include="Models\Role.cs" />
     <Compile Include="Models\Room.cs" />
     <Compile Include="MyProvider\SiteRole.cs" />
@@ -160,6 +180,23 @@
     <Content Include="Views\Home\UserHome.cshtml" />
     <Content Include="Views\Home\Action.cshtml" />
     <Content Include="Views\Home\Action1.cshtml" />
+    <Content Include="Views\Rooms\Create.cshtml" />
+    <Content Include="Views\Rooms\Delete.cshtml" />
+    <Content Include="Views\Rooms\Details.cshtml" />
+    <Content Include="Views\Rooms\Edit.cshtml" />
+    <Content Include="Views\Rooms\Index.cshtml" />
+    <Content Include="Views\Home\AdminEditProfile.cshtml" />
+    <Content Include="Views\Users\Create.cshtml" />
+    <Content Include="Views\Users\Delete.cshtml" />
+    <Content Include="Views\Users\Details.cshtml" />
+    <Content Include="Views\Users\Edit.cshtml" />
+    <Content Include="Views\Users\Index.cshtml" />
+    <Content Include="Views\Reserves\Create.cshtml" />
+    <Content Include="Views\Reserves\Delete.cshtml" />
+    <Content Include="Views\Reserves\Details.cshtml" />
+    <Content Include="Views\Reserves\Edit.cshtml" />
+    <Content Include="Views\Reserves\Index.cshtml" />
+    <Content Include="Views\Reserve\Reserve.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -170,6 +207,7 @@
   <ItemGroup>
     <Folder Include="images\bg\" />
     <Folder Include="Views\Account\" />
+    <Folder Include="Views\Admin\" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201801310728162_ali.resx">
@@ -177,6 +215,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201801310852589_ali1.resx">
       <DependentUpon>201801310852589_ali1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801311041426_ali2.resx">
+      <DependentUpon>201801311041426_ali2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801311045549_majed3.resx">
+      <DependentUpon>201801311045549_majed3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801311051540_ali4.resx">
+      <DependentUpon>201801311051540_ali4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801311110248_ali5.resx">
+      <DependentUpon>201801311110248_ali5.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

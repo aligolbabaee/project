@@ -45,7 +45,7 @@ namespace Hotel.Controllers
                     us.EditeDate = DateTime.Now.ToString();
                     us.RegisterDate= DateTime.Now.ToString();
                     us.PhoneNum ="1";
-                    us.Room=new Room() { ID = 2 };
+                    
                     
 
                     db.Users.Add(us);

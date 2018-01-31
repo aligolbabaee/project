@@ -17,5 +17,6 @@ namespace Hotel.Models
         //table
         public DbSet<User> Users { get; set; }
         public DbSet<Room> Rooms { get; set; }
+        public DbSet<Reserve> Reserves { get; set; }
     }
 }

@@ -38,3 +38,7 @@ C:\Users\Ali_golbabaee\Desktop\hotel_\Hotel\bin\EntityFramework.SqlServer.xml
 C:\Users\Ali_golbabaee\Desktop\hotel_\Hotel\obj\Debug\Hotel.Migrations.ali.resources
 C:\Users\Ali_golbabaee\Desktop\hotel_\Hotel\obj\Debug\Hotel.csproj.GenerateResource.Cache
 C:\Users\Ali_golbabaee\Desktop\hotel_\Hotel\obj\Debug\Hotel.Migrations.ali1.resources
+C:\Users\Ali_golbabaee\Desktop\hotel_\Hotel\obj\Debug\Hotel.Migrations.ali2.resources
+C:\Users\Ali_golbabaee\Desktop\hotel_\Hotel\obj\Debug\Hotel.Migrations.majed3.resources
+C:\Users\Ali_golbabaee\Desktop\hotel_\Hotel\obj\Debug\Hotel.Migrations.ali4.resources
+C:\Users\Ali_golbabaee\Desktop\hotel_\Hotel\obj\Debug\Hotel.Migrations.ali5.resources

@@ -3,12 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using Hotel.Models;
 
 
 namespace Hotel.Controllers
 {
     public class HomeController : Controller
     {
+        Hotel_DB db = new Hotel_DB();
+        
         // GET: Home
         public ActionResult home()
         {
@@ -25,11 +28,11 @@ namespace Hotel.Controllers
         {
             return View();
         }
-
-       
-        public ActionResult Action1()
+        public ActionResult AdminEditProfile()
         {
-            return View();
+
+            return View(db.Users.Find(int.Parse(User.Identity.Name)));
         }
+       
     }
 }
