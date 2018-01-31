@@ -11,13 +11,12 @@ namespace Hotel.Controllers
     public class HomeController : Controller
     {
         Hotel_DB db = new Hotel_DB();
-        
+
         // GET: Home
         public ActionResult home()
         {
             return View();
         }
-
         public ActionResult UserHome()
         {
             return View();

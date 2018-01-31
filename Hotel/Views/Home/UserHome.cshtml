@@ -9,9 +9,47 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>UserHome</title>
+    <style>
+        body {
+            background: url('../../images/bg/bg 04.png');
+        }
+
+        #big_menu {
+            margin: auto;
+            border: 1px solid black;
+            margin-top: 40px;
+            width: 60%;
+        }
+
+        .head_text {
+            text-align: center;
+            background-color: orange;
+            color: white;
+            font-size: 20px;
+            width: 100%;
+            padding-top: 10px;
+        }
+
+        a img {
+            margin: auto;
+            width: 60%;
+            height: 400px;
+            padding-left: 150px;
+        }
+    </style>
 </head>
 <body>
-    <div> 
+    <div id="big_menu">
+        <div class="head_text">
+            Edit Profile
+        </div>
+
+        <div><a href="~/Users/"><img src="~/images/profile.png" /></a></div>
+        <div class="head_text">
+            Rooms
+        </div>
+        <div><a href="~/Reserves/Index"><img src="~/images/calendar-512.png" /></a></div>
+     
     </div>
 </body>
 </html>
