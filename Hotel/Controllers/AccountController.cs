@@ -45,9 +45,6 @@ namespace Hotel.Controllers
                     us.EditeDate = DateTime.Now.ToString();
                     us.RegisterDate= DateTime.Now.ToString();
                     us.PhoneNum ="1";
-                    
-                    
-
                     db.Users.Add(us);
                     db.SaveChanges();
                     ViewBag.message = "ثیت نام انجام شد";

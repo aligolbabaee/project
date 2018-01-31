@@ -113,6 +113,7 @@
     <Content Include="images\2khabe.jpg" />
     <Content Include="images\3khabe.jpg" />
     <Content Include="images\9.jpg" />
+    <Content Include="images\bg\bg 04.png" />
     <Content Include="images\bg_hotel.jpg" />
     <Content Include="images\close.png" />
     <Content Include="images\email.png" />
@@ -122,9 +123,12 @@
     <Content Include="images\location.png" />
     <Content Include="images\maz.png" />
     <Content Include="images\phone.png" />
+    <Content Include="images\profile.png" />
     <Content Include="images\rezerv.png" />
     <Content Include="images\rooms.png" />
+    <Content Include="images\rooms2.png" />
     <Content Include="images\tools.png" />
+    <Content Include="images\users.png" />
     <Content Include="images\Viceroy_Bali_Hotel.jpg" />
     <Content Include="script\home.js" />
     <Content Include="Web.config" />
@@ -133,7 +137,6 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\Rooms1Controller.cs" />
     <Compile Include="Controllers\RoomsController.cs" />
     <Compile Include="Controllers\UsersController.cs" />
     <Compile Include="Global.asax.cs">
@@ -205,7 +208,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="images\bg\" />
     <Folder Include="Views\Account\" />
     <Folder Include="Views\Admin\" />
   </ItemGroup>

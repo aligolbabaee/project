@@ -8,11 +8,49 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>Action</title>
+    <title> admin page</title>
+    <style>
+        body{
+            background:url('../../images/bg/bg 04.png')
+        }
+        #big_menu{
+            margin:auto;
+            border:1px solid black;
+            margin-top:40px;
+            width:60%;
+        }
+        .head_text{
+            text-align:center;
+            background-color:orange;
+            color:white;
+            font-size:20px;
+            width:100%;
+            padding-top:10px;
+        }
+        a img{
+                margin:auto;
+           width:60%;
+           height:400px;
+           padding-left:150px;
+
+        }
+    </style>
 </head>
 <body>
-    <div> 
-        admin page
+    <div id="big_menu"> 
+       <div class="head_text">
+           Edit Profile
+       </div>
+    
+        <div><a href="~/Home/AdminEditProfile"><img src="~/images/profile.png" /></a></div>
+        <div class="head_text">
+            Rooms
+        </div>
+        <div><a href="~/Rooms/Index"><img src="~/images/rooms2.png" /></a></div>
+        <div class="head_text">
+            Users
+        </div>
+        <div><a href="~/Users/Index"><img src="~/images/users.png" /></a></div>
     </div>
 </body>
 </html>
